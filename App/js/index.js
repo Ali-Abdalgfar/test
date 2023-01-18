@@ -24,10 +24,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setRotate(47)
-                .setLeft("12.723809523809523em")
-                .setTop("13.561904761904762em")
+                .setLeft("6.780952380952381em")
+                .setTop("10.971428571428572em")
                 .setWidth("18.666666666666668em")
-                .setHeight("12.647619047619047em")
+                .setHeight("28.8em")
                 .setCaption("Button")
                 .onClick([
                     {
@@ -56,6 +56,7 @@ xui.Class('App', 'xui.Module',{
                 .setLabelSize("8em")
                 .setLabelCaption("Text Area")
                 .setMultiLines(true)
+                .setValue("hgjgfv")
             );
             
             return children;
