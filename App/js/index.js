@@ -24,8 +24,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setRotate(47)
-                .setLeft("6.780952380952381em")
-                .setTop("10.971428571428572em")
+                .setLeft("10.666666666666666em")
+                .setTop("5.333333333333333em")
                 .setWidth("18.666666666666668em")
                 .setHeight("28.8em")
                 .setCaption("Button")
@@ -57,6 +57,21 @@ xui.Class('App', 'xui.Module',{
                 .setLabelCaption("Text Area")
                 .setMultiLines(true)
                 .setValue("hgjgfv")
+            );
+            
+            append(
+                xui.create("xui.UI.Slider")
+                .setHost(host,"xui_ui_slider1")
+                .setLeft("6.095238095238095em")
+                .setTop("37.333333333333336em")
+                .setWidth("31.771428571428572em")
+                .setHeight("6.3238095238095235em")
+                .setIsRange(false)
+                .setLabelSize("1.5em")
+                .setLabelPos("top")
+                .setLabelCaption("Slider")
+                .setLabelHAlign("left")
+                .setValue("0")
             );
             
             return children;
