@@ -72,6 +72,21 @@ xui.Class('App', 'xui.Module',{
                 .setLabelCaption("Slider")
                 .setLabelHAlign("left")
                 .setValue("0")
+                .onChange([
+                    {
+                        "desc" : "Action 1",
+                        "type" : "control",
+                        "target" : "xui_ui_input22",
+                        "args" : [
+                            "{page.xui_ui_input22.setUIValue()}",
+                            undefined,
+                            undefined,
+                            "{args[2]}"
+                        ],
+                        "method" : "setUIValue",
+                        "redirection" : "other:callback:call"
+                    }
+                ])
             );
             
             return children;
