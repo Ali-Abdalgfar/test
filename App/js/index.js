@@ -46,6 +46,18 @@ xui.Class('App', 'xui.Module',{
                 ])
             );
             
+            append(
+                xui.create("xui.UI.Input")
+                .setHost(host,"xui_ui_input22")
+                .setLeft("22.095238095238095em")
+                .setTop("30.476190476190474em")
+                .setWidth("30.17142857142857em")
+                .setHeight("10em")
+                .setLabelSize("8em")
+                .setLabelCaption("Text Area")
+                .setMultiLines(true)
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
