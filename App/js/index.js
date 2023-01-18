@@ -24,10 +24,10 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button3")
                 .setRotate(47)
-                .setLeft("10.666666666666666em")
-                .setTop("5.333333333333333em")
+                .setLeft("43.352380952380955em")
+                .setTop("3.3523809523809525em")
                 .setWidth("18.666666666666668em")
-                .setHeight("28.8em")
+                .setHeight("12.19047619047619em")
                 .setCaption("Button")
                 .onClick([
                     {
@@ -49,8 +49,8 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Input")
                 .setHost(host,"xui_ui_input22")
-                .setLeft("22.095238095238095em")
-                .setTop("30.476190476190474em")
+                .setLeft("3.0476190476190474em")
+                .setTop("9.142857142857142em")
                 .setWidth("30.17142857142857em")
                 .setHeight("10em")
                 .setLabelSize("8em")
